@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    background-image: url(images/HeaderImage.png);
+    width: 100%;
+    background-size:cover;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-caption{
+    color: white;
+    padding: 1.875em 2.5em;
+}
+
+.header-title{
+    font-size: 2.4375rem;
+    margin: 0px;
+}
+
+.sub-header-title{
+    font-size: 1.4375rem;
+    margin-top: 0.125em;
+}
+
+.menu-items{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1.875em;
+}
+
+.menu-item{
+    display: flex;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 1.875em 0px;
+}
+
+.item{
+    font-size: 4.375rem;
+    width: 1.375em;
+}
+
+
+.item-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.125em;
+}
+
+.item-name{
+    padding-top: 0.625em;
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.item-ingredients{
+    margin: 0px 0px 0.3125em;
+    color: #8B8B8B;
+    font-size: 1rem;
+}
+
+.item-price{
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.add-item{
+    margin: auto 0 auto auto;
+}
+
+.add-button{
+    font-family: "Inter", sans-serif;
+    background: white;
+    font-size: 1.875rem;
+    padding: 0.5em 0.775em;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+}
+
+.add-button:hover{
+    border: 1px solid black;
+    color: firebrick;
+}
+
+.checkout-order{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.checkout-title{
+    text-align: center;
+}
+
+.checkout-items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.item-remove-btn{
+    background: white;
+    color: #BBBBBB;
+    border: none;
+}
+
+.item-checkout-price{
+    margin-left: auto;
+}
+
+.checkout-items-total{
+    border-top: 2px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.total-price{
+    margin-left: auto;
+}
+
+.complete-processing{
+    width: 100%;
+    color: white;
+    background-color: #16DB99;
+    height: 3.75em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 2em;
+}
+
+.modal{
+    text-align: center;
+    display: none;
+    background-color: white;
+    position: fixed;
+    top: 100px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 31.25em;
+    box-shadow: 5px 5px 100px black;
+}
+
+.modal-title{
+    margin-top: 3.125em;
+    margin-left: auto;
+}
+
+.input-field{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 0.9375rem;
+    width: 100%;
+    height: 3.75em;
+    margin-top: 0.625em;
+    margin-bottom: 1.25em;
+    border-radius: 5px;
+    padding-left: 1.25em;
+}
+
+.input-field::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.complete-pay{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #16DB99;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    height: 3.75em;
+    margin-bottom: 1.25em;
+    border-radius: 5px;
+}
+
+.end-message{
+    padding: 1.25em;
+    display: flex;
+    justify-content: center;
+    background-color: #ECFDF5;
+    color: #065F46;
+}
+
+.modal-header-container{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close-btn{
+    margin-left: auto;
+    background-color:#16DB99;
+    font-weight: bolder;
+}
+
+.modal-close-btn:hover{
+    color: firebrick;
+}
